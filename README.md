@@ -1,4 +1,4 @@
-# untrusted-analysis
+# claude-sandbox
 
 A locked-down, network-isolated environment for letting Claude inspect code or
 websites **you don't trust** — without risking your machine, your secrets, or
