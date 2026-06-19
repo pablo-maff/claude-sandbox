@@ -1,0 +1,3 @@
+# Session audit trails contain transcripts of analyzed (untrusted) content.
+audit/*
+!audit/.gitkeep

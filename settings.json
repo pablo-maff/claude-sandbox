@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(npm:*)", "Bash(npx:*)", "Bash(pnpm:*)", "Bash(yarn:*)", "Bash(bun:*)", "Bash(deno:*)",
+      "Bash(node:*)", "Bash(python:*)", "Bash(python3:*)", "Bash(pip:*)", "Bash(pip3:*)", "Bash(pipx:*)",
+      "Bash(make:*)", "Bash(cmake:*)", "Bash(cargo:*)", "Bash(go:*)", "Bash(ruby:*)", "Bash(gem:*)",
+      "Bash(php:*)", "Bash(java:*)", "Bash(javac:*)", "Bash(dotnet:*)", "Bash(gradle:*)", "Bash(mvn:*)",
+      "Bash(bash:*)", "Bash(sh:*)", "Bash(zsh:*)", "Bash(eval:*)", "Bash(source:*)", "Bash(.:*)",
+      "Bash(./*)", "Bash(exec:*)", "Bash(xargs:*)",
+      "Bash(curl:*)", "Bash(wget:*)", "Bash(nc:*)", "Bash(ncat:*)", "Bash(telnet:*)",
+      "Bash(ssh:*)", "Bash(scp:*)", "Bash(rsync:*)", "Bash(ftp:*)", "Bash(sftp:*)",
+      "Bash(chmod:*)", "Bash(chown:*)", "Bash(sudo:*)", "Bash(su:*)", "Bash(iptables:*)", "Bash(ipset:*)",
+      "Read(//home/analyst/.claude/**)",
+      "Read(//etc/**)", "Read(//proc/**)", "Read(//sys/**)", "Read(//root/**)",
+      "Read(**/.env)", "Read(**/.env.*)", "Read(**/*.key)", "Read(**/*.pem)", "Read(**/*.p12)",
+      "Read(**/*.pfx)", "Read(**/id_rsa*)", "Read(**/id_ed25519*)", "Read(**/*.keystore)",
+      "Read(**/*secret*)", "Read(**/*credential*)", "Read(**/*.kdbx)", "Read(**/.npmrc)", "Read(**/.netrc)",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "allow": [
+      "Read", "Grep", "Glob",
+      "Bash(rg:*)", "Bash(grep:*)", "Bash(egrep:*)", "Bash(fgrep:*)",
+      "Bash(ls:*)", "Bash(find:*)", "Bash(tree:*)", "Bash(file:*)", "Bash(stat:*)",
+      "Bash(wc:*)", "Bash(head:*)", "Bash(tail:*)", "Bash(sort:*)", "Bash(uniq:*)",
+      "Bash(git log:*)", "Bash(git diff:*)", "Bash(git show:*)", "Bash(git status:*)",
+      "Bash(git blame:*)", "Bash(git ls-files:*)", "Bash(git branch:*)", "Bash(git remote:*)",
+      "Bash(semgrep:*)", "Bash(gitleaks:*)"
+    ]
+  }
+}
